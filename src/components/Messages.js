@@ -3,7 +3,9 @@ import Token from '../Token';
 import MessageView from './MessageView';
 import { Image, Card, InputGroup, FormControl, Spinner } from 'react-bootstrap';
 
+
 export default class Message extends React.Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -115,6 +117,9 @@ export default class Message extends React.Component {
                 </div>
             );
         }
+
+          
+        
 
         const image = require(`../assets/images/emojis/${this.state.anon.avatar}.png`);
         return (
