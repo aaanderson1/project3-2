@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Image, Card } from 'react-bootstrap';
 
+
 export default class MessageView extends React.Component {
     render() {
         const image = require(`../assets/images/emojis/${this.props.message.mood}.png`);
