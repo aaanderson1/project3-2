@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/static/js/main.59fc6979.chunk.js",
+    "main.js.map": "/static/js/main.59fc6979.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.a9ded335.chunk.js": "/static/js/2.a9ded335.chunk.js",
+    "static/js/2.a9ded335.chunk.js.map": "/static/js/2.a9ded335.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.922d22b283002cb3247502747a40c883.js": "/precache-manifest.922d22b283002cb3247502747a40c883.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/grinning.png": "/static/media/grinning.a5c4c868.png",
+    "static/media/neutral.png": "/static/media/neutral.a7fe3123.png",
+    "static/media/rolling.png": "/static/media/rolling.8d0d9682.png",
+    "static/media/slightly.png": "/static/media/slightly.f8af4936.png",
+    "static/media/sunglasses.png": "/static/media/sunglasses.4238fe56.png",
+    "static/media/thinking.png": "/static/media/thinking.872be34d.png"
+  }
+}
