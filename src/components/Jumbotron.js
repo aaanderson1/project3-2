@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
 import "./Jumbotron.css";
 import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
-import { Section, Button } from "react-materialize";
+import { Section} from "react-materialize";
+
 
 
 function Parallaxrender() {
@@ -9,7 +11,9 @@ function Parallaxrender() {
 
   <Section>
 
-  <Section className="parallax"><button className="waves-effect waves-teal btn-flat loginBTN">Log In</button></Section>
+  <Section className="parallax">
+    <h1 className="title">Shower Thoughts</h1>
+    </Section>
   
  
   </Section>
