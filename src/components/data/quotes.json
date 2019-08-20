@@ -1,0 +1,203 @@
+[
+    {
+        "author": {
+            "firstName": "Warsan",
+            "lastName": "Shire",
+            "name": "Warsan Shire"
+        },
+        "tags": ["self-esteem"],
+        "text": "It's not my responsibility to be beautiful. I'm not alive for that purpose. My existence is not about how desirable you find me."
+    },
+    {
+        "author": {
+            "firstName": "Dorothy",
+            "lastName": "Parker",
+            "name": "Dorothy Parker"
+        },
+        "tags": ["self-esteem"],
+        "text": "In youth it was a way I had,\nTo do my best to please.\nAnd change, with every passing lad\nTo suit his theories.\n\nBut now I know the things I know\nAnd do the things I do,\nAnd if you not like me so,\nTo hell, my love, with you."
+    },
+    {
+        "author": {
+            "firstName": "Toby",
+            "lastName": "Fox",
+            "name": "Toby Fox"
+        },
+        "tags": ["self-acceptance"],
+        "text": "When you look in the mirror, you'll see that it's you. Despite everything, it's still you."
+    },
+    {
+        "author": {
+            "firstName": "Laurie",
+            "lastName": "Anderson",
+            "name": "Laurie Halse Anderson"
+        },
+        "tags": ["mindfulness", "motivation", "self-acceptance", "self-esteem"],
+        "text": "There is no magic cure, no making it all go away forever. There are only small steps upward; an easier day, an unexpected laugh, a mirror that doesn't matter anymore."
+    },
+    {
+        "author": {
+            "firstName": "Frederick",
+            "lastName": "Douglass",
+            "name": "Frederick Douglass"
+        },
+        "tags": ["self-acceptance", "self-esteem"],
+        "text": "I prefer to be true to myself, even at the hazard of incurring the ridicule of others, rather than to be false, and to incur my own abhorrence."
+    },
+    {
+        "author": {
+            "name": "Aberjhani"
+        },
+        "tags": ["motivation", "self-esteem"],
+        "text": "Dare to love yourself\nas if you were a rainbow\nwith gold at both ends."
+    },
+    {
+        "author": {
+            "firstName": "Morgan",
+            "lastName": "Peck",
+            "name": "Morgan Scott Peck"
+        },
+        "tags": ["motivation", "self-acceptance"],
+        "text": "Until you value yourself, you won't value your time. Until you value your time, you will not do anything with it."
+    },
+    {
+        "author": {
+            "firstName": "Nelson",
+            "lastName": "Mandela",
+            "name": "Nelson Mandela"
+        },
+        "tags": ["motivation"],
+        "text": "It always seems impossible until it's done."
+    },
+    {
+        "author": {
+            "firstName": "Sylvia",
+            "lastName": "Plath",
+            "name": "Sylvia Plath"
+        },
+        "tags": ["mindfulness", "self-acceptance"],
+        "text": "I took a deep breath and listened to the old bray of my heart. I am. I am. I am."
+    },
+    {
+        "author": {
+            "firstName": "Jack",
+            "lastName": "Kornfield",
+            "name": "Jack Kornfield"
+        },
+        "tags": ["mindfulness", "motivation"],
+        "text": "In the end, just three things matter: How well we have lived. How well we have loved. How well we have learned to let go."
+    },
+    {
+        "author": {
+            "firstName": "Vincent",
+            "lastName": "van Gogh",
+            "name": "Vincent van Gogh"
+        },
+        "tags": ["self-acceptance"],
+        "text": "If I am worth anything later, I am worth something now. For wheat is wheat, even if people think it is a grass in the beginning."
+    },
+    {
+        "author": {
+            "firstName": "Zig",
+            "lastName": "Ziglar",
+            "name": "Zig Ziglar"
+        },
+        "tags": ["mindfulness", "motivation"],
+        "text": "Difficult roads often lead to beautiful destinations. The best is yet to come."
+    },
+    {
+        "author": {
+            "firstName": "Jacques",
+            "lastName": "Torres",
+            "name": "Jacques Torres"
+        },
+        "tags": ["mindfulness", "self-esteem"],
+        "text": "Life is short. Eat dessert first."
+    },
+    {
+        "author": {
+            "firstName": "Martin",
+            "lastName": "King",
+            "name": "Martin Luther King, Jr."
+        },
+        "tags": ["motivation"],
+        "text": "If I cannot do great things, I can do small things in a great way."
+    },
+    {
+        "author": {
+            "name": "Anonymous"
+        },
+        "tags": ["motivation"],
+        "text": "If you’re going through hell keep going."
+    },
+    {
+        "author": {
+            "firstName": "Martin",
+            "lastName": "King",
+            "name": "Martin Luther King, Jr."
+        },
+        "tags": ["motivation"],
+        "text": "If you can’t fly then run, if you can’t run then walk, if you can’t walk then crawl, but whatever you do you have to keep moving forward."
+    },
+    {
+        "author": {
+            "firstName": "Eleanor",
+            "lastName": "Roosevelt",
+            "name": "Eleanor Roosevelt"
+        },
+        "tags": ["mindfulness"],
+        "text": "You wouldn't worry so much about what others think of you if you realized how seldom they do."
+    },
+    {
+        "author": {
+            "firstName": "Erma",
+            "lastName": "Bombeck",
+            "name": "Erma Bombeck"
+        },
+        "tags": ["mindfulness"],
+        "text": "Worry is like a rocking chair: it gives you something to do but never gets you anywhere."
+    },
+    {
+        "author": {
+            "firstName": "Steve",
+            "lastName": "Maraboli",
+            "name": "Steve Maraboli"
+        },
+        "tags": ["mindfulness"],
+        "text": "I promise you nothing is as chaotic as it seems. Nothing is worth your health. Nothing is worth poisoning yourself into stress, anxiety, and fear."
+    },
+    {
+        "author": {
+            "firstName": "Thich",
+            "lastName": "Hanh",
+            "name": "Thich Nhat Hanh"
+        },
+        "tags": ["mindfulness"],
+        "text": "Smile, breathe, and go slowly."
+    },
+    {
+        "author": {
+            "firstName": "Janet",
+            "lastName": "Schram",
+            "name": "Aunt Janet"
+        },
+        "tags": ["mindfulness", "motivation"],
+        "text": "You have to believe something wonderful can happen at any minute."
+    },
+    {
+        "author": {
+            "firstName": "Martin",
+            "lastName": "King",
+            "name": "Martin Luther King, Jr."
+        },
+        "tags": ["motivation"],
+        "text": "I refuse to accept the view that mankind is so tragically bound to the starless midnight of racism and war that bright daybreak of peace and brotherhood can never become a reality."
+    },
+    {
+        "author": {
+            "name": "Red Hook Studios"
+        },
+        "tags": ["motivation"],
+        "text": "Many fall in the face of chaos... But not this one. Not today."
+    }
+]
