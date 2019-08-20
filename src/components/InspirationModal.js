@@ -5,6 +5,7 @@ import "./InspirationModal.css";
 import Quote from './quote';
 
 
+
 class Modal extends Component {
   componentDidMount() {
     const options = {
