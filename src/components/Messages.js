@@ -3,7 +3,8 @@ import Token from '../Token';
 import MessageView from './MessageView';
 import { Image, InputGroup, FormControl, Spinner } from 'react-bootstrap';
 import "materialize-css/dist/css/materialize.min.css";
-import { Card, Row, Col, CardTitle} from "react-materialize";
+import { Card, Row, Col, CardTitle, Parallax, Section} from "react-materialize";
+import "./Messages.css";
 
 
 export default class Message extends React.Component {
@@ -127,9 +128,9 @@ export default class Message extends React.Component {
 
         const image = require(`../assets/images/emojis/${this.state.anon.avatar}.png`);
         return (
-            
-            <Row>
-                <Col m={6} s={12}>
+
+            <Row className="messagesTopRow">
+                <Col m={6} s={6} l={6}>
                 <Card header={<CardTitle />} actions={[<a />]}>
                         <Image src={image} roundedCircle />
 
