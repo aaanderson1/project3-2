@@ -130,7 +130,7 @@ export default class Message extends React.Component {
         return (
 
             <Row className="messagesTopRow">
-                <Col m={6} s={6} l={6}>
+                <Col m={12} s={12} l={12}>
                 <Card header={<CardTitle />} actions={[<a />]}>
                         <Image src={image} roundedCircle />
 
@@ -143,17 +143,18 @@ export default class Message extends React.Component {
                             </InputGroup.Prepend>
                             <FormControl
                             aria-label="Default"
-                            aria-describedby="inputGroup-sizing-default"
+                            aria-describedby="inputGroup-sizing-default" placeholder=" press enter to save"
                             />
                         </InputGroup>
                     
                 </Card>
                 </Col>
                 
-            
+                <Col m={12} s={12} l={12}>
                 {this.state.messages.map(message =>
                     <MessageView message={message} deleteCallback={this.deleteMessage.bind(this)} owned={this.state.anon._id === message.anon} />
                 )}
+                </Col>
                 </Row>
             
         );

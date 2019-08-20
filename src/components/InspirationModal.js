@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 import "./InspirationModal.css";
+import Quote from './quote';
+
 
 
 class Modal extends Component {
@@ -54,15 +56,12 @@ class Modal extends Component {
           {/* If you want Bottom Sheet Modal then add 
         bottom-sheet class */}
           <div className="modal-content">
-            <h4>Modal Header</h4>
-            
+            <h4>Generate a Quote Below!</h4>
+            <Quote />
           </div>
           <div class="modal-footer">
             <a href="#" class="modal-close waves-effect waves-red btn-flat">
-              Disagree
-            </a>
-            <a href="#" class="modal-close waves-effect waves-green btn-flat">
-              Agree
+              Close
             </a>
           </div>
         </div>
