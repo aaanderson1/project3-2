@@ -1,4 +1,4 @@
-## Project # 3 - "It's My Party"
+## Project # 3 - "Shower Thoughts"
 **Creators**: `Jenny Ivy and Allison Anderson`
 - - -
 ## Directions:
