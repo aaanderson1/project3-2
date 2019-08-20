@@ -27,6 +27,7 @@ export default class Message extends React.Component {
             return;
         }
         this.login(token.token).then(() => this.getMessages());
+        //set interval
     }
 
     login(token) {
@@ -38,6 +39,7 @@ export default class Message extends React.Component {
                 this.setState({
                     anon: data[0]
                 });
+                setInterval(function(){ this.getMessages(); }.bind(this), 3000);
             } else {
                 const token = new Token();
                 token.saveToken(null);
