@@ -1,5 +1,5 @@
 //sets up the reusable Navbar component
-import "./Navbar.css";
+import "./Navbar.scss";
 import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import { Navbar, NavItem } from "react-materialize";
