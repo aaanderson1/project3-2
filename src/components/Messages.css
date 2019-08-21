@@ -19,3 +19,7 @@ body {
   .messagesTopRow {
     align-content: center;
   }
+
+  #Picker {
+	  position: absolute;
+  }
