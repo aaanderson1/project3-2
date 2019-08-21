@@ -1,7 +1,11 @@
 import React from 'react';
 import Token from '../Token';
 import MessageView from './MessageView';
-import { Image, Card, InputGroup, FormControl, Spinner } from 'react-bootstrap';
+import { Image, InputGroup, FormControl, Spinner } from 'react-bootstrap';
+import "materialize-css/dist/css/materialize.min.css";
+import { Card, Row, Col, CardTitle, Parallax, Section} from "react-materialize";
+import "./Messages.css";
+import Emoji from './emoji'
 
 
 export default class Message extends React.Component {
@@ -125,32 +129,33 @@ export default class Message extends React.Component {
 
         const image = require(`../assets/images/emojis/${this.state.anon.avatar}.png`);
         return (
-            <div>
-                <Card>
-                    <Card.Body>
+
+            <Row>
+                <Col m={12} s={12} l={12}>
+                <Card header={<CardTitle />} actions={[<a />]}>
                         <Image src={image} roundedCircle />
-                            <Card>
-                                <Card.Body>
+
                                     
                         <InputGroup onKeyPress={this.handleKeyPress.bind(this)} className="mb-3">
-                            <InputGroup.Prepend>
-                            <InputGroup.Text id="inputGroup-sizing-default">
+                            
+                            <InputGroup.Text>
                             What's on your mind?
                             </InputGroup.Text>
-                            </InputGroup.Prepend>
-                            <FormControl
-                            aria-label="Default"
-                            aria-describedby="inputGroup-sizing-default"
-                            />
+                            
+                            <Emoji />
+                            
                         </InputGroup>
-                                </Card.Body>
-                            </Card>
-                    </Card.Body>
+                    
                 </Card>
+                </Col>
+                
+                <Col m={12} s={12} l={12}>
                 {this.state.messages.map(message =>
                     <MessageView message={message} deleteCallback={this.deleteMessage.bind(this)} owned={this.state.anon._id === message.anon} />
                 )}
-            </div>
+                </Col>
+                </Row>
+            
         );
     }
 }

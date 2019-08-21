@@ -1,0 +1,75 @@
+.Tag {
+    position: relative;
+}
+
+.Tag__button {
+    align-items: center;
+    border-style: solid;
+    border-radius: 1rem;
+    border-width: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 0.8125rem;
+    height: 2rem;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+input[type="checkbox"].Tag__checkbox {
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.Tag__text {
+    cursor: inherit;
+    padding: 0 0.75rem;
+    user-select: none;
+}
+
+/* GREY TAG STYLES */
+.Tag--grey input[type="checkbox"].Tag__checkbox:focus + .Tag__button,
+.Tag--grey input[type="checkbox"].Tag__checkbox:hover + .Tag__button,
+.Tag--grey--outline input[type="checkbox"].Tag__checkbox:focus + .Tag__button,
+.Tag--grey--outline input[type="checkbox"].Tag__checkbox:hover + .Tag__button {
+    border-color: #9a9a9a;
+}
+
+/* GREY CONTAINED TAG STYLES */
+.Tag--grey .Tag__button {
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+.Tag--grey .Tag__button:active {
+    background-color: #c4c4c4;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+
+.Tag--grey input[type="checkbox"].Tag__checkbox:checked + .Tag__button {
+    background-color: #cecece;
+}
+
+/* GREY OUTLINE TAG STYLES */
+.Tag--grey--outline .Tag__button {
+    background-color: transparent;
+    border-color: #e0e0e0;
+    color: #313131;
+}
+
+.Tag--grey--outline .Tag__button:active {
+    background-color: #c5c5c5;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+
+.Tag--grey--outline input[type="checkbox"].Tag__checkbox:checked + .Tag__button {
+    background-color: #ebebeb;
+}

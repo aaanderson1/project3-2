@@ -1,0 +1,11 @@
+.Form__inline-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    width: 75vw;
+}
+
+.Form__inline-input-container__input {
+    margin: 0.25rem;
+}
