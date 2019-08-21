@@ -5,6 +5,7 @@ import { Image, InputGroup, FormControl, Spinner } from 'react-bootstrap';
 import "materialize-css/dist/css/materialize.min.css";
 import { Card, Row, Col, CardTitle, Parallax, Section} from "react-materialize";
 import "./Messages.css";
+import Emoji from './emoji'
 
 
 export default class Message extends React.Component {
@@ -129,22 +130,20 @@ export default class Message extends React.Component {
         const image = require(`../assets/images/emojis/${this.state.anon.avatar}.png`);
         return (
 
-            <Row className="messagesTopRow">
+            <Row>
                 <Col m={12} s={12} l={12}>
                 <Card header={<CardTitle />} actions={[<a />]}>
                         <Image src={image} roundedCircle />
 
                                     
                         <InputGroup onKeyPress={this.handleKeyPress.bind(this)} className="mb-3">
-                            <InputGroup.Prepend>
-                            <InputGroup.Text id="inputGroup-sizing-default">
+                            
+                            <InputGroup.Text>
                             What's on your mind?
                             </InputGroup.Text>
-                            </InputGroup.Prepend>
-                            <FormControl
-                            aria-label="Default"
-                            aria-describedby="inputGroup-sizing-default" placeholder=" press enter to save"
-                            />
+                            
+                            <Emoji />
+                            
                         </InputGroup>
                     
                 </Card>
