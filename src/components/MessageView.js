@@ -9,7 +9,7 @@ export default class MessageView extends React.Component {
             <div>
                 <Card>
                     <Card.Body>
-                        <Image src={image} roundedCircle />{this.props.message.message}
+                        <Image src={image} roundedCircle />{this.props.message.message} 
                         {this.props.owned &&
                             <Button variant="outline-primary" onClick={() => this.props.deleteCallback(this.props.message._id)}>X</Button>
                         }
