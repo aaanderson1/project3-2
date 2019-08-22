@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Image, Card } from 'react-bootstrap';
-import "./style.css";
+import "./style.scss";
 
 
 export default class Countdown extends React.Component {

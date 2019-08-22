@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 import Tag from './Tag';
 import generateRandomString from './generateRandomString';
-import './Form.css';
+import './Form.scss';
 
 /**
  * Form that provides interface for users to generate quotes and/or filter quotes to

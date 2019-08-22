@@ -1,6 +1,6 @@
 import React from 'react';
 import Token from '../Token';
-import "./Home.css";
+import "./Home.scss";
 
 // Home checks if your token is valid and forwards to messages page or login if your token is no longer valid.
 export default class Home extends React.Component {

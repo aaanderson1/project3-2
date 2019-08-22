@@ -3,7 +3,7 @@ import Blockquote from './Blockquote';
 import Button from './Button';
 import Form from './Form';
 import QuoteService from './services/QuoteService';
-import './quote.css';
+import './quote.scss';
 
 class Quote extends Component {
   constructor() {

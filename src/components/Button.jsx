@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import getDisplayClassName from './getDisplayClassName';
-import './Button.css';
+import './Button.scss';
 
 /**
  * Button that uses the HTML `<button>` element as its base. Allows for a 

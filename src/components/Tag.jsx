@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import generateRandomString from './generateRandomString';
 import getDisplayClassName from './getDisplayClassName';
-import './Tag.css';
+import './Tag.scss';
 
 /**
  * Represents an attribute a quote can be labelled with. Allows for a 
