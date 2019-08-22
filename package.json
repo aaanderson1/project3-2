@@ -69,5 +69,9 @@
   "bugs": {
     "url": "https://github.com/aaanderson1/project3/issues"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5000",
+  "engines" : { 
+      "node": ">=12.1",
+      "npm": ">=6.9"
+    }
 }
