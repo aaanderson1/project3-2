@@ -9,6 +9,7 @@ import Footer from './Footer'
 
 const App = () => (
   <div>
+      <Navbar />
     <Jumbotron
         />
     <InspirationModal
