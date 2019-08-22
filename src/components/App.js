@@ -3,19 +3,20 @@ import Main from './Main'
 import Navbar from "./Navbar"
 import Jumbotron from "./Jumbotron"
 import InspirationModal from './InspirationModal'
-import Sharemodal from './Sharemodal'
+import Footer from './Footer'
 
 
 
 const App = () => (
   <div>
+    <Navbar
+        />
     <Jumbotron
         />
     <InspirationModal
         />
-    <Sharemodal
-        />
     <Main />
+    <Footer />
   </div>
 )
 

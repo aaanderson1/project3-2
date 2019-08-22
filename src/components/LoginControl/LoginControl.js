@@ -1,7 +1,6 @@
 import React from 'react';
 import Token from '../../Token';
 import { Button, Image } from 'react-bootstrap';
-import "../style.css";
 
 const avatars = ["grinning",
 "neutral",
@@ -115,7 +114,7 @@ export default class LoginControl extends React.Component {
         const image = require(`../../assets/images/emojis/${this.state.avatar}.png`);
         return (
             <div>
-                <Image className="avatar" src={image} responsive />
+                <Image src={image} roundedCircle />
                 <Button variant="outline-primary" onClick={() => this.login()}>Login</Button>
             </div>
         );

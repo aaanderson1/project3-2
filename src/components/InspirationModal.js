@@ -3,7 +3,7 @@ import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 import "./InspirationModal.css";
 import Quote from './quote';
-import {Row, Col} from "react-materialize";
+import {Row} from "react-materialize";
 
 
 
@@ -40,8 +40,6 @@ class Modal extends Component {
   render() {
     return (
       <Row>
-        <Col m={6} s={6} l={3}></Col>
-        <Col m={6} s={6} l={3}>
         <a
           className="waves-effect waves-light btn modal-trigger inspirationModalBTN"
           data-target="modal1"
@@ -68,7 +66,6 @@ class Modal extends Component {
             </a>
           </div>
           </div>
-          </Col>
         </Row>
     );
   }
