@@ -60,6 +60,7 @@ export default class Message extends React.Component {
         return fetch(`${window.location.origin.toString()}/api/messages`)
         .then(response => response.json())
         .then(data => {
+            data = data.reverse();
             console.log(data);
             this.setState({
                 anon: this.state.anon,
