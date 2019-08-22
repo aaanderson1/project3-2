@@ -11,7 +11,7 @@ const moment = require('moment');
 module.exports = {};
 
 module.exports.deleteOldStuff = (callback) => {
-    let current = moment().subtract(60, 'minutes');
+    let current = moment().subtract(60, 'seconds');
     current = moment.utc(current).format();
 
     db.Message.deleteMany({
@@ -24,6 +24,8 @@ module.exports.deleteOldStuff = (callback) => {
         callback(err);
     });
     
+    current = moment().subtract(60, 'minutes');
+    current = moment.utc(current).format();
     db.Anon.deleteMany({
         'created': {'$lt' : current}
     })

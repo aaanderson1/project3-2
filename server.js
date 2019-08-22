@@ -23,7 +23,7 @@ apiRoutes.getAnonRoute(app);
 htmlRoutes.homeRoute(app);
 setInterval(() => apiRoutes.deleteOldStuff((err) => {
     console.log(err);
-}), 10000);
+}), 1000);
 //if deployed use the deployed database, otherwise use the local mongoHeadlines database
 var db = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c74ed4e7c0655ffdb6bcc7f272f9a69e",
+    "revision": "aedd4a981778acc8c6dbbc3ac9942bcd",
     "url": "/index.html"
   },
   {
-    "revision": "5cd197fa1ae730ceda35",
+    "revision": "7f279d3ada1ce53a1d59",
     "url": "/static/css/2.acf0a9e4.chunk.css"
   },
   {
-    "revision": "72a2560641444ad104cd",
-    "url": "/static/css/main.dde24cd1.chunk.css"
+    "revision": "a7c54d44d5ef998d075a",
+    "url": "/static/css/main.d1bdbd3b.chunk.css"
   },
   {
-    "revision": "5cd197fa1ae730ceda35",
-    "url": "/static/js/2.5a9b0115.chunk.js"
+    "revision": "7f279d3ada1ce53a1d59",
+    "url": "/static/js/2.2a3020de.chunk.js"
   },
   {
-    "revision": "72a2560641444ad104cd",
-    "url": "/static/js/main.67ce6818.chunk.js"
+    "revision": "a7c54d44d5ef998d075a",
+    "url": "/static/js/main.89e618a3.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f4b5e164e9b6c8f18fc2f4a70f0af166",
     "url": "/static/media/blushing.f4b5e164.png"
-  },
-  {
-    "revision": "02cadaf69b8d01a3a7171a0f2494e008",
-    "url": "/static/media/bowling.02cadaf6.png"
   },
   {
     "revision": "64298cc4f10a1c953656f9ce04375e95",
@@ -185,7 +181,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "2df78bb4ab8c8fccceec0883675fdd85",
-    "url": "/static/media/shocked-face-with-exploding-head_1f92f.2df78bb4.png"
+    "url": "/static/media/shocked.2df78bb4.png"
   },
   {
     "revision": "3c3d9443ff784bb05a1d9c4bfae66db9",
@@ -245,7 +241,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "ef7a1b9bc40b31c8f1ac39f08b324c33",
-    "url": "/static/media/victory-hand_270c.ef7a1b9b.png"
+    "url": "/static/media/victory-hand.ef7a1b9b.png"
   },
   {
     "revision": "6d06c6c8174289ea2387efa5c0558ea1",

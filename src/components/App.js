@@ -7,8 +7,6 @@ import InspirationModal from './InspirationModal'
 
 const App = () => (
   <div>
-    <Navbar
-        />
     <Jumbotron
         />
     <InspirationModal
