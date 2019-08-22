@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
-import "./InspirationModal.css";
+import "./Sharemodal.css";
 import Quote from './quote';
 import {Row, Col} from "react-materialize";
 
 
 
-class Modal extends Component {
+class Sharemodal extends Component {
   componentDidMount() {
     const options = {
       onOpenStart: () => {
@@ -39,21 +39,21 @@ class Modal extends Component {
 
   render() {
     return (
-      <Row>
-        <Col m={6} s={6} l={3}></Col>
-        <Col m={6} s={6} l={3}>
+          
+          
+          <Col m={6} s={6} l={3}>
         <a
-          className="waves-effect waves-light btn modal-trigger inspirationModalBTN"
-          data-target="modal1"
+          className="waves-effect waves-light btn modal-trigger shareModalBTN"
+          data-target="modal2"
         >
-          NEED INSPIRATION?
+          READY TO SHARE YOUR THOUGHTS?
         </a>
 
         <div
           ref={Modal => {
             this.Modal = Modal;
           }}
-          id="modal1"
+          id="modal2"
           className="modal"
         >
           {/* If you want Bottom Sheet Modal then add 
@@ -67,11 +67,12 @@ class Modal extends Component {
               Close
             </a>
           </div>
-          </div>
-          </Col>
-        </Row>
+        </div>
+        </Col>
+       
+      
     );
   }
 }
 
-export default Modal;
+export default Sharemodal;
