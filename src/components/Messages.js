@@ -5,6 +5,7 @@ import { Image, InputGroup, FormControl, Spinner } from 'react-bootstrap';
 import "materialize-css/dist/css/materialize.min.css";
 import { Card, Row, Col, CardTitle, Parallax, Section} from "react-materialize";
 import "./Messages.scss";
+import Emoji from './emoji';
 
 
 export default class Message extends React.Component {
