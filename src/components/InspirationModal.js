@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
-import "./InspirationModal.css";
+import "./InspirationModal.scss";
 import Quote from './quote';
 import {Row} from "react-materialize";
 

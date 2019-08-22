@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Blockquote.css';
+import './Blockquote.scss';
 
 /**
  * Appears as a raised card with the content of a given quote as

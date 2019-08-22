@@ -1,0 +1,36 @@
+.footertext {
+    text-align: center;
+    padding-top: 13px;
+  }
+  
+  .githubLink {
+    text-align: right;
+  }
+  
+  .footer {
+    position: relative;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6F7EA7;
+    color: white;
+    text-align: center;
+  }
+  
+  /* unvisited link */
+  
+  a {
+    &:link {
+      color: lightgrey;
+    }
+    &:visited, &:hover, &:active {
+      color: black;
+    }
+  }
+  
+  /* visited link */
+  
+  /* mouse over link */
+  
+  /* selected link */

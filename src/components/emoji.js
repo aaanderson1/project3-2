@@ -3,7 +3,7 @@ import { postMessage } from "../adapter/api";
 import validate from "./Validations";
 import "emoji-mart/css/emoji-mart.css";
 import { Picker } from "emoji-mart";
-import "./emoji.css";
+import "./emoji.scss";
 
 class Emoji extends React.Component {
   state = {

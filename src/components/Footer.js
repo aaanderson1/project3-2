@@ -1,6 +1,6 @@
 //sets up the reusable Footer component
 import React from "react";
-import "./Footer.css";
+import "./Footer.scss";
 
 const Footer = () => (
 	<header className = "footer">
