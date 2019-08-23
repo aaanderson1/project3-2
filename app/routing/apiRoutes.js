@@ -40,7 +40,11 @@ const badWords = [
     "fucking",
     "cunt",
     "blunt",
-    "poop"
+    "poop",
+    "cock",
+    "gobblin",
+    "gobbler",
+    "🖕"
 ];
 const replacementEmojis = [
     "🤬",
