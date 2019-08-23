@@ -1,9 +1,9 @@
 import React from 'react';
 import Token from '../Token';
 import MessageView from './MessageView';
-import { Image, InputGroup, FormControl, Spinner } from 'react-bootstrap';
+import { Image, InputGroup, Spinner } from 'react-bootstrap';
 import "materialize-css/dist/css/materialize.min.css";
-import { Card, Row, Col, CardTitle, Parallax, Section} from "react-materialize";
+import { Card, Row, Col, CardTitle,} from "react-materialize";
 import "./Messages.scss";
 import Emoji from './emoji';
 
