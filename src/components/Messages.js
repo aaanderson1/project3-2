@@ -5,7 +5,7 @@ import { Image, InputGroup, Spinner } from 'react-bootstrap';
 import "materialize-css/dist/css/materialize.min.css";
 import { Card, Row, Col, CardTitle,} from "react-materialize";
 import "./Messages.scss";
-import Emoji from './emoji'
+import Emoji from './emoji';
 
 
 export default class Message extends React.Component {
@@ -43,7 +43,7 @@ export default class Message extends React.Component {
                 this.setState({
                     anon: data[0]
                 });
-                setInterval(function(){ this.getMessages(); }.bind(this), 3000);
+                setInterval(function(){ this.getMessages(); }.bind(this), 1000);
             } else {
                 const token = new Token();
                 token.saveToken(null);
@@ -129,11 +129,11 @@ export default class Message extends React.Component {
 
         const image = require(`../assets/images/emojis/${this.state.anon.avatar}.png`);
         return (
-
+<div>
             <Row>
                 <Col m={12} s={12} l={12}>
                 <Card header={<CardTitle />} actions={[<a />]}>
-                        <Image src={image} roundedCircle />
+                        <Image className="avatar" src={image} responsive />
 
                                     
                         <InputGroup onKeyPress={this.handleKeyPress.bind(this)} className="mb-3">
@@ -148,13 +148,16 @@ export default class Message extends React.Component {
                     
                 </Card>
                 </Col>
+                </Row>
                 
+            <Row>
                 <Col m={12} s={12} l={12}>
                 {this.state.messages.map(message =>
                     <MessageView message={message} deleteCallback={this.deleteMessage.bind(this)} owned={this.state.anon._id === message.anon} />
                 )}
                 </Col>
                 </Row>
+                </div>
             
         );
     }
