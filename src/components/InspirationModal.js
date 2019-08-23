@@ -57,7 +57,8 @@ class Modal extends Component {
           {/* If you want Bottom Sheet Modal then add 
         bottom-sheet class */}
           <div className="modal-content">
-            <h4>Generate a Quote Below!</h4>
+            <h4 className="modalHead">Generate a Quote Below!</h4>
+            <h5 className="modalSubhead">Keep the conversation going with a selection of funny and inspirational sayings:</h5>
             <Quote />
           </div>
           <div class="modal-footer">
