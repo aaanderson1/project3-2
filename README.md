@@ -3,7 +3,7 @@
 - - -
 
 
-![screenshot](src/assets/images/showerthoughts-screenshot.png)
+![screenshot](src/assets/images/st-screenshot-400.png)
 
 • Link to deployed version: https://shower--thoughts.herokuapp.com/
 
