@@ -66,7 +66,10 @@ const badWords = [
     "peter",
     "bogan",
     "dolt",
-    "bloke"
+    "bloke",
+    "weenie",
+    "weenis",
+    "dweeb"
 ];
 const replacementEmojis = [
     "🤬",
