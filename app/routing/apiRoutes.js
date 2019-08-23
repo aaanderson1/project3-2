@@ -63,7 +63,10 @@ const badWords = [
     "dick",
     "dingaling",
     "dong",
-    "peter"
+    "peter",
+    "bogan",
+    "dolt",
+    "bloke"
 ];
 const replacementEmojis = [
     "🤬",
