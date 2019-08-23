@@ -7,6 +7,68 @@ var cheerio = require("cheerio");
 var db = require("../models");
 const moment = require('moment');
 
+//list of bad words
+const badWords = [
+    "shit",
+    "fuck",
+    "suck",
+    "sucks",
+    "twat",
+    "damn",
+    "asshole",
+    "fart",
+    "queef",
+    "sh*t",
+    "bitch",
+    "fucker",
+    "hate",
+    "stupid",
+    "ass",
+    "retarded",
+    "shart",
+    "blart",
+    "69",
+    "cyber",
+    "420",
+    "homo",
+    "pussy",
+    "dick",
+    "shlong",
+    "wang",
+    "wong",
+    "retard",
+    "fucking",
+    "cunt",
+    "blunt",
+    "poop"
+];
+const replacementEmojis = [
+    "🤬",
+    "❌",
+    "🙈",
+    "🙉",
+    "🙊"];
+
+const replaceBadWord = (word) => {
+    for (const badWord of badWords){
+        if (word.includes(badWord)){
+            const emojis = [];
+            for (let i = 0; i<word.length; ++i){
+                emojis.push(replacementEmojis[Math.floor(Math.random() * replacementEmojis.length)])
+            }
+            return emojis.join("");
+        }
+    }
+    return word;
+};
+
+const sanitize = (inputString) => {
+    const words = inputString.split(" ");
+    for(const [index, word] of words.entries()){
+        words[index] = replaceBadWord(word);
+    }
+    return words.join(" ");
+};
 
 module.exports = {};
 
@@ -56,6 +118,7 @@ module.exports.getMessageRoute = (app) => {
         console.log(req);
         const data = req.body;
         data.created = moment().format();
+        data.message = sanitize(data.message);
         db.Message.create(data)
             .then(function (dbGift) {
                 res.json(dbGift);
