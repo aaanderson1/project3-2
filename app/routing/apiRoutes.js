@@ -44,7 +44,8 @@ const badWords = [
     "cock",
     "gobblin",
     "gobbler",
-    "🖕"
+    "🖕",
+    "hate"
 ];
 const replacementEmojis = [
     "🤬",
