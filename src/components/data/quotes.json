@@ -226,5 +226,69 @@
         },
         "tags": ["motivation"],
         "text": "If you go through a lot of hammers each month, I don't think it necessarily means you're a hard worker. It may just mean that you have a lot to learn about proper hammer maintenance."
+    },
+    {
+        "author": {
+            "firstName": "Jack",
+            "lastName": "Handey",
+            "name": "Jack Handey (Saturday Night Live)"
+        },
+        "tags": ["mindfulness"],
+        "text": "Before you criticize someone, you should walk a mile in their shoes. That way, when you criticize them, you're a mile away and you have their shoes."
+    },
+    {
+        "author": {
+            "firstName": "Mark",
+            "lastName": "Twain",
+            "name": "Mark Twain"
+        },
+        "tags": ["motivation"],
+        "text": "Never put off until tomorrow what you can do the day after tomorrow."
+    },
+    {
+        "author": {
+            "firstName": "Zach",
+            "lastName": "Galifianakis",
+            "name": "Zach Galifianakis"
+        },
+        "tags": ["motivation"],
+        "text": "I have a lot of growing up to do. I realized that the other day inside my fort."
+    },
+    {
+        "author": {
+            "firstName": "Robin",
+            "lastName": "Williams",
+            "name": "Robin Williams"
+        },
+        "tags": ["self-esteem"],
+        "text": "You’re only given a little spark of madness. You mustn’t lose it."
+    },
+    {
+        "author": {
+            "firstName": "Jerry",
+            "lastName": "Seinfeld",
+            "name": "Jerry Seinfeld"
+        },
+        "tags": ["mindfulness"],
+        "text": "A bookstore is one of the only pieces of physical evidence we have that people are still thinking."
+    },
+    {
+        "author": {
+            "firstName": "Steve",
+            "lastName": "Martin",
+            "name": "Steve Martin"
+        },
+        "tags": ["mindfulness"],
+        "text": "A day without sunshine is like, you know, night."
+    },
+    {
+        "author": {
+            "firstName": "Ellen",
+            "lastName": "DeGeneres",
+            "name": "Ellen DeGeneres"
+        },
+        "tags": ["self-esteem"],
+        "text": "Accept who you are. Unless you are a serial killer."
     }
+
 ]
