@@ -46,7 +46,24 @@ const badWords = [
     "gobbler",
     "🖕",
     "hate",
-    "chode"
+    "chode",
+    "weed",
+    "booze",
+    "beer",
+    "alcohol",
+    "cocaine",
+    "acid",
+    "gun",
+    "shooting",
+    "kill",
+    "fml",
+    "boob",
+    "boobs",
+    "penis",
+    "dick",
+    "dingaling",
+    "dong",
+    "peter"
 ];
 const replacementEmojis = [
     "🤬",
