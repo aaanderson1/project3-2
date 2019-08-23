@@ -15,6 +15,8 @@ This is a messaging app created with React. Users are assigned a unique avatar d
 
 An emoji library and quote generator help keep the messages engaging.
 
+![](readmeShowerThoughts.gif)
+
 ## Technology Used: 
 
 *React<br/>
