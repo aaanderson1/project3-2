@@ -72,7 +72,8 @@ const badWords = [
     "dweeb",
     "butt",
     "buttox",
-    "buttcheeks"
+    "buttcheeks",
+    "asswipe"
 ];
 const replacementEmojis = [
     "🤬",
