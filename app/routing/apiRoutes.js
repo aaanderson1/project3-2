@@ -69,7 +69,10 @@ const badWords = [
     "bloke",
     "weenie",
     "weenis",
-    "dweeb"
+    "dweeb",
+    "butt",
+    "buttox",
+    "buttcheeks"
 ];
 const replacementEmojis = [
     "🤬",
