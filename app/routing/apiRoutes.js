@@ -98,7 +98,7 @@ const replaceBadWord = (word) => {
 const sanitize = (inputString) => {
     const words = inputString.split(" ");
     for(const [index, word] of words.entries()){
-        words[index] = replaceBadWord(word.lowercase());
+        words[index] = replaceBadWord(word.toLowerCase());
     }
     return words.join(" ");
 };
